@@ -1,0 +1,210 @@
+:root{
+    --fontLato: "Lato";
+    --colorGold: #fff200;
+}
+
+.page{
+    max-width: 1600px;
+    margin: 0 auto;   
+}
+
+/* ----------------------------------------------HEADER ---------------------------------------*/
+.header{
+    width: 100%;
+}
+
+.headerTopBox{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigationMenu___list{
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #232323;
+    font-family: var(--fontLato);
+    font-weight: 700;
+}
+
+.search__input{
+    width: 170px;
+    height: 30px;
+    background-color: #dcd6e9;
+    border: none;
+}
+.headerMain{
+    width: 100%;
+    height: 788px;
+    background-image: url(../img/bacgroundHeader.png);
+}
+.titleHeader{
+    font-size: 64px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-family: var(--fontLato);
+    font-weight: 700;
+    text-align: center;
+}
+
+.titleHeader > span{
+    color: var(--colorGold);
+}
+
+/* ----------------------------------------------MAIN CONTENT ---------------------------------------*/
+
+/* ----------------------------------------------MAIN CONTENT why Choos US---------------------------------------*/
+
+.whyChoosUs{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 112px auto;
+    height: 500px;
+}
+
+.whyChoosUs__title{
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #232323;
+    font-family: var(--fontLato);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.whyChoosUs__title > span{
+    color: #009dda;
+}
+
+.whyChoosUs__description{
+    width: 700px;
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #999999;
+font-family: var(--fontLato);
+font-weight: 400;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 90px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart{
+    width: 200px;
+    height: 270px;
+    border: 1px solid #ebebeb;
+}
+
+.cart__icon{
+    width: 200px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.cart__content > h3{
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 60px;
+color: #232323;
+font-family: var(--fontLato);
+font-weight: 800;
+text-align: center;
+text-transform: uppercase;
+}
+
+.cart__content > div{
+    width: 158px;
+height: 72px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #373737;
+font-family: var(--fontLato);
+font-weight: 300;
+text-align: center;
+}
+
+/* ----------------------------------------------PRODUCS---------------------------------------*/
+
+.producsTitle{
+    background-image: url(../img/productsLine.png);
+    height: 167px;
+    padding-top: 48px;
+    
+}
+
+.producsTitle > h2{
+    font-size: 35px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #ffffff;
+font-family: var(--fontLato);
+font-weight: 700;
+text-align: center;
+
+}
+
+.producsTitle > h2 > span{
+    color: var(--colorGold);
+}
+
+.producsBox{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+}
+.product{
+    height: 170px;
+    width: 380px;
+    display: flex;
+}
+
+.productInfo > h3{
+    font-size: 24px;
+letter-spacing: 1px;
+line-height: 97px;
+color: #232323;
+font-family: var(--fontLato);
+font-weight: 800;
+}
+.productInfo__subtitle{
+    font-size: 16px;
+line-height: 24px;
+color: #503392;
+font-family: var(--fontLato);
+font-weight: 400;
+}
+.productInfo__description{
+    width: 147px;
+height: 42px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #373737;
+font-family: var(--fontLato);
+font-weight: 300;
+}
