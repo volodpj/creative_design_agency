@@ -44,7 +44,7 @@
 .headerMain{
     width: 100%;
     height: 788px;
-    background-image: url(../img/bacgroundHeader.png);
+    background: url(../img/bacgroundHeader.png) no-repeat center;
 }
 .titleHeader{
     font-size: 64px;
@@ -89,15 +89,14 @@
 .whyChoosUs__description{
     width: 700px;
     font-size: 14px;
-letter-spacing: 1px;
-line-height: 24px;
-color: #999999;
-font-family: var(--fontLato);
-font-weight: 400;
-text-align: center;
-margin: 0 auto;
-margin-bottom: 90px;
-
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: var(--fontLato);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 .container{
@@ -128,25 +127,25 @@ margin-bottom: 90px;
 
 .cart__content > h3{
     font-size: 14px;
-letter-spacing: 1px;
-line-height: 60px;
-color: #232323;
-font-family: var(--fontLato);
-font-weight: 800;
-text-align: center;
-text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #232323;
+    font-family: var(--fontLato);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .cart__content > div{
     width: 158px;
-height: 72px;
-font-size: 14px;
-letter-spacing: 1px;
-line-height: 20px;
-color: #373737;
-font-family: var(--fontLato);
-font-weight: 300;
-text-align: center;
+    height: 72px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #373737;
+    font-family: var(--fontLato);
+    font-weight: 300;
+    text-align: center;
 }
 
 /* ----------------------------------------------PRODUCS---------------------------------------*/
@@ -155,51 +154,48 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url(../img/productBacround.png) no-repeat center;
+    height: 845px;
+    padding-top: 45px;
 }
 
 .producsTitle{
-    background-image: url(../img/productsLine.png);
-    height: 167px;
-    padding-top: 48px;
-    width: 100%;
-    
-}
-
-.producsTitle > h2{
     font-size: 35px;
-letter-spacing: 1px;
-line-height: 24px;
-color: #ffffff;
-font-family: var(--fontLato);
-font-weight: 700;
-text-align: center;
-
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: var(--fontLato);
+    font-weight: 700;
+    text-align: center;
 }
 
-.producsTitle > h2 > span{
+.producsTitle > span{
     color: var(--colorGold);
 }
 
 .producsBox{
-    
+    max-width: 1170px;
+    margin-top: 190px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
+    justify-content: space-between;
 }
 .product{
     height: 170px;
     width: 350px;
     display: flex;
     align-items: center;
-    border: 1px solid gold;
+    
 }
 
 .product > img{
-    height: 140px;
-    width: 140px;
+    height: 145px;
+    width: 145px;
 }
 
 .productInfo{
     margin-left: 25px;
+    width: 150px;
 }
 
 .productInfo > h3{
@@ -221,12 +217,25 @@ text-align: center;
     text-transform: capitalize;
 }
 .productInfo__description{
-    width: 147px;
-height: 42px;
-font-size: 14px;
-letter-spacing: 1px;
-line-height: 24px;
-color: #373737;
-font-family: var(--fontLato);
-font-weight: 300;
+    width: 150px;
+    height: 42px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #373737;
+    font-family: var(--fontLato);
+    font-weight: 300;
 }
+
+/* ----------------------------------------------ABOUT US---------------------------------------*/
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
