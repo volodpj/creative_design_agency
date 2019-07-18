@@ -34,6 +34,9 @@
     font-family: var(--fontLato);
     font-weight: 700;
 }
+.navigationMenu___list > li{
+    cursor: pointer;
+}
 
 .search__input{
     width: 170px;
@@ -45,6 +48,7 @@
     width: 100%;
     height: 788px;
     background: url(../img/bacgroundHeader.png) no-repeat center;
+    padding-top: 300px;
 }
 .titleHeader{
     font-size: 64px;
@@ -230,16 +234,30 @@
 /* ----------------------------------------------ABOUT US---------------------------------------*/
 .aboutUsContainer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    flex-direction: column;
+    height: 1120px;
 }
 
 .aboutUsContainer__main{
     display: flex;
     max-width: 1170px;
+    
 }
 
 .skilsBox{
-    
+    width: 552px;
+    height: 630px;
+    margin-right: 215px;
+}
+
+.skilsBox__title{
+    text-align: left
+}
+.skilsBox__description{
+    text-align: left
 }
 
 .skillContainer{
@@ -249,12 +267,32 @@
 .skillContainer > div{
     display: flex;
     justify-content: space-between;
+    
+}
+.skillContainer__info{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #444444;
+    font-family: "Lato";
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .skillContainer__line{
     width: 489px;
     border: 1px solid rgb(235, 231, 231);
     height: 5px;
+}
+.skilsBox__info{
+    width: 559px;
+    height: 137px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #373737;
+    font-family: "Lato";
+    font-weight: 400;
 }
 
 .skills {
