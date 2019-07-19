@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
 }
-
+/*---------------------------------------------MENY-------------------------------------------*/
 .navigationMenu___list{
     display: flex;
     width: 410px;
@@ -34,10 +34,36 @@
     font-family: var(--fontLato);
     font-weight: 700;
 }
-.navigationMenu___list > li{
+.navigationMenu > ul li a{
     cursor: pointer;
+    display: block;
 }
 
+.navigationMenu > ul li{
+    position: relative;
+}
+
+.navigationMenu li ul{
+    position: absolute;
+    min-width: 185px;
+    display: none;
+}
+
+.navigationMenu li > ul li a{
+    background-color: #373737;
+    padding: 10px;
+}
+
+.navigationMenu li > ul li ul{
+    position: absolute;
+    right: -200px;
+    top: 0px;
+}
+
+.navigationMenu li:hover > ul{
+    display: block;
+}
+/*---------------------------------------------MENY-------------------------------------------*/
 .search__input{
     width: 170px;
     height: 30px;
