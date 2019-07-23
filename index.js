@@ -1,7 +1,25 @@
-function myMap() {
-    var mapProp= {
-      center:new google.maps.LatLng(51.508742,-0.120850),
-      zoom:5,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
+'use strict'
+
+
+let sliderLeft = document.getElementById('leftPlay');
+let sliderRight = document.getElementById('rightPlay');
+
+let left = 0;
+sliderLeft.addEventListener('click', () => {
+  let line = document.querySelector('.line');
+  left = left - 725;
+  if(left < -1450){
+    left = 0;
+  }
+  line.style.left = left + 'px';
+});
+
+sliderRight.addEventListener('click', () => {
+  let line = document.querySelector('.line');
+  left = left + 725;
+  if(left === 0){
+    left = -1450;
+  }
+ 
+  line.style.left = left + 'px';
+})
