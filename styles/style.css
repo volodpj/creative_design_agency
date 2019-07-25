@@ -411,3 +411,24 @@
   .html {width: 90%; background-color: #009dda;}
   .js {width: 69%; background-color: #009dda;}
   .worpress {width: 92%; background-color: #009dda;}
+
+/* ***********************************************ABOUT US***************************************/
+/* ----------------------------------------------FOOTER---------------------------------------*/
+.footer{
+    position: relative;
+}
+.formaBox{
+    width: 940px;
+    height: 435px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    left: 50%;
+    margin-left: -470px;
+}
+
+.mainForm {
+    width: 490px;
+    height: 280px;
+}
