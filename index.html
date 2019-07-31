@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/styleAnimate.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> <!-- lato -->
     <title>Document</title>
-    
+
+   
     <script src="./index.js" defer></script>
+    
+    
 </head>
 <body>
     <article class="page">
@@ -194,7 +198,7 @@
                                             <div class="skillContainer__info">79%</div>
                                         </div>
                                         <div class="skillContainer__line">
-                                            <div class="skills photoshop"></div>
+                                            <div class="skills photoshop wow photoshopProgress"></div>
                                         </div>
                                     </div>
             
@@ -204,7 +208,7 @@
                                                 <div class="skillContainer__info">79%</div>
                                             </div>
                                             <div class="skillContainer__line">
-                                                <div class="skills html"></div>
+                                                <div class="skills html wow htmlcssProgress"></div>
                                             </div>
                                         </div>
             
@@ -214,7 +218,7 @@
                                             <div class="skillContainer__info">79%</div>
                                         </div>
                                         <div class="skillContainer__line">
-                                            <div class="skills js"></div>
+                                            <div class="skills js wow javascriptProgress"></div>
                                         </div>
                                     </div>
             
@@ -224,7 +228,7 @@
                                             <div class="skillContainer__info">79%</div>
                                         </div>
                                         <div class="skillContainer__line">
-                                            <div class="skills js"></div>
+                                            <div class="skills wordpress wow wordpressProgress"></div>
                                         </div>
                                     </div>
                 
@@ -258,7 +262,9 @@
         </footer>
         
     </article>
-
-    
+    <script src="./WOW-master/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

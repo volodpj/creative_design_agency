@@ -1,4 +1,4 @@
-'use strict'
+
 
 
 let sliderLeft = document.getElementById('leftPlay');
@@ -33,3 +33,20 @@ setInterval(() => {
     line.style.left = left + 'px';
   },
 5000);
+
+const photoshop = document.querySelector('.photoshop');
+const html = document.querySelector('.html');
+const js = document.querySelector('.js');
+const worpress = document.querySelector('.worpress');
+
+const skils = document.querySelector('.scils');
+
+
+
+  
+
+
+
+
+
+
