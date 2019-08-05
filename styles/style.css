@@ -100,34 +100,15 @@
 }
 /*---------------------------------------------MENY-------------------------------------------*/
 /**********************************************SLIDER*******************************************/
-.slider{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.slider__btnBox{
+.btnBox{
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.sliderBox{
-    max-width: 730px;
-    overflow: hidden;
     position: relative;
-    top: -50px;
-    
+    top: -80px;
 }
-.line{
-    display: flex;
-    width: 2175px;
-    position: relative;
-    left: 0;
-    transition: all ease 1s;
-    
-}
-.line > div{
+.slider__item{
     transition: 0.5s;
     text-align: center;
     width: 735px;
@@ -140,6 +121,49 @@
     font-weight: 400;
     text-align: center;
     padding: 0 10px;
+} 
+
+.slider{
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.dots{
+    text-align: center;
+}
+
+.dots__dot{
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin: 0 2px;
+    background-color: #373737;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+    position: relative;
+}
+
+.active, .dots__dot:hover{
+    background-color: #009dda;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 3s;
+    
+}
+
+@keyframes fade{
+    from{
+        opacity: 0.1;
+    }
+    to{
+        
+        opacity: 1;
+    }
 }
 /*---------------------------------------------SLIDER-------------------------------------------*/
 .search__input{

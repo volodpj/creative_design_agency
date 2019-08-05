@@ -51,18 +51,22 @@
             </section>
             <section class="headerMain">
                 <h1 class="titleHeader">CREATIVE <span>DESIGN AGENCY</span></h1>
-                <div class="slider">
-                    <div class="slider__btnBox">
-                        <div id="leftPlay"><img src="./img/left arrow.png" alt=""></div>
-                        <div id="rightPlay"><img src="./img/right arrow.png" alt=""></div>
+                <div class="sliderContainer">
+                    <div class="slider">
+                        <div class="slider__item fade">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
+                        <div class="slider__item fade">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
+                        <div class="slider__item fade">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
                     </div>
-                    <div class="sliderBox">
-                        <div class="line">
-                            <div>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
-                            <div>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
-                            <div>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</div>
-                        </div>
+                    <div class="btnBox">
+                        <div id="leftPlay"><img src="./img/left arrow.png" alt="" onclick="plusSliders(-1)"></div>
+                        <div id="rightPlay"><img src="./img/right arrow.png" alt="" onclick="plusSliders(1)"></div>
                     </div>
+                </div>
+                    
+                <div class="dots">
+                    <span class="dots__dot" onclick="currentSliders(1)"></span>
+                    <span class="dots__dot" onclick="currentSliders(2)"></span>
+                    <span class="dots__dot" onclick="currentSliders(3)"></span>
                 </div>
             </section>
         </header>
